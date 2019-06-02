@@ -1,0 +1,26 @@
+{
+  "name": "taitava/silverstripe-cmseditlink",
+  "description": "An easy way to generate links to edit any DataObjects in the CMS.",
+  "type": "silverstripe-vendormodule",
+  "license": "MIT",
+  "require": {
+    "silverstripe/framework": "~4.0",
+    "taitava/swiftmailer-imapsentfolder": "~1"
+  },
+  "keywords": [
+    "cms",
+    "link",
+    "editor"
+  ],
+  "authors": [
+    {
+      "name": "Jarkko Linnanvirta",
+      "email": "posti@taitavasti.fi",
+      "homepage": "http://taitavasti.fi",
+      "role": "Nerd"
+    }
+  ],
+  "extra": {
+    "installer-name": "cmseditlink"
+  }
+}
