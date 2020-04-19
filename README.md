@@ -18,7 +18,14 @@ Also the documentation is not the best possible at this point.
 
 ## Simple usage
 
-You can create simple links just like this:
+First you need to apply this extension module to all the `DataObject` classes you want to. This example configuration code will apply it to all `DataObject` classes. Put this in a new file named *app\_config\cmseditlink.yml*:
+```YAML
+SilverStripe\ORM\DataObject:
+  extensions:
+    - Taitava\CMSEditLink\DataObjectExtension
+```
+
+Now you can create simple links just like this:
 ```php
 $book = Book::get()->byID(1);
 $link = $book->CMSEditLink();
